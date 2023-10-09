@@ -19,7 +19,7 @@ void delete(struct person* who){
 
 int main(){
 	struct person *tom=create_person("tom",30);
-	printf("%s\n %d\n",tom->name,tom->age);
+	printf("%s\n%d\n",tom->name,tom->age);
 	delete(tom);
 	return 0;
 }
